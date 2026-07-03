@@ -188,11 +188,6 @@ function Hero() {
       <div className="absolute inset-0 grid-bg opacity-30 [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_70%)]" />
       <div className="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center relative">
         <div className="lg:col-span-7 space-y-7">
-          <motion.div {...fadeUp} className="inline-flex items-center gap-2 glass rounded-full px-3.5 py-1.5 text-xs">
-            <span className="w-1.5 h-1.5 rounded-full bg-neon animate-pulse" />
-            <span className="text-muted-foreground">Available for AI engineering & full-stack engagements · Q3 2026</span>
-          </motion.div>
-
           <motion.h1
             {...fadeUp}
             transition={{ ...fadeUp.transition, delay: 0.05 }}
