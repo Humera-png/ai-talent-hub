@@ -78,14 +78,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Humera Shaikh — Full-Stack AI Engineer" },
+      { name: "description", content: "Full-Stack AI Engineer building production AI systems, intelligent automation, and modern SaaS applications." },
+      { name: "author", content: "Humera Shaikh" },
+      { property: "og:title", content: "Humera Shaikh — Full-Stack AI Engineer" },
+      { property: "og:description", content: "Engineering production-ready AI software: LLM orchestration, scalable SaaS, and modern full-stack systems." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { property: "og:site_name", content: "Humera Shaikh" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
