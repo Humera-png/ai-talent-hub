@@ -6,9 +6,9 @@ import ReactMarkdown from "react-markdown";
 import { Bot, Send, Sparkles, X } from "lucide-react";
 
 const SUGGESTIONS = [
-  "What's Humera's experience?",
-  "Show me her best projects",
-  "Can she build AI chatbots?",
+  "What's Humera's engineering experience?",
+  "Show me her production AI work",
+  "Can she engineer a RAG-powered chatbot?",
   "How do I hire her?",
 ];
 
